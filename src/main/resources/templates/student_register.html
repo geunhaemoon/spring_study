@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:text="${title}"> </h1>
+
+    <form method="post" action="/post/xwww">
+        <div><input name="name" placeholder="이름" /></div>
+
+        <div><input name="age" placeholder="나이" /></div>
+
+        <button type="submit"> 전송 </button>
+
+    </form>
+
+</body>
+</html>
